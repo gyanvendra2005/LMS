@@ -57,7 +57,7 @@ export default function Navbar() {
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>
                 <DropdownMenuGroup>
                   <DropdownMenuItem>Profile</DropdownMenuItem>
-                  <DropdownMenuItem>Billing</DropdownMenuItem>
+                  <DropdownMenuItem><Link to="mylearning">My Courese</Link></DropdownMenuItem>
                   <DropdownMenuItem>Settings</DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
@@ -71,7 +71,7 @@ export default function Navbar() {
               <Link href="/signup">Sign In</Link>
             </Button>
           )}
-          <DarkMode />
+          <DarkMode/>
         </div>
       </div>
 
