@@ -57,7 +57,7 @@ export default function Navbar() {
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>
                 <DropdownMenuGroup>
                   <DropdownMenuItem>Profile</DropdownMenuItem>
-                  <DropdownMenuItem><Link to="mylearning">My Courese</Link></DropdownMenuItem>
+                  <DropdownMenuItem><Link href="mylearning">My Courese</Link></DropdownMenuItem>
                   <DropdownMenuItem>Settings</DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
