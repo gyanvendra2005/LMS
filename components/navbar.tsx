@@ -46,7 +46,7 @@ export default function Navbar() {
               <DropdownMenuTrigger asChild>
                 <Avatar aria-label="User menu">
                   <AvatarImage
-                    src={session.user.image ?? "https://github.com/shadcn.png"}
+                    src={session.user.photoUrl ?? "https://github.com/shadcn.png"}
                   />
                   <AvatarFallback>
                     {session.user.name?.[0] ?? "U"}
@@ -56,7 +56,7 @@ export default function Navbar() {
               <DropdownMenuContent className="w-56" align="end">
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>
                 <DropdownMenuGroup>
-                  <DropdownMenuItem>Profile</DropdownMenuItem>
+                  <DropdownMenuItem><Link href="profile">Profile</Link></DropdownMenuItem>
                   <DropdownMenuItem><Link href="mylearning">My Courese</Link></DropdownMenuItem>
                   <DropdownMenuItem>Settings</DropdownMenuItem>
                 </DropdownMenuGroup>
